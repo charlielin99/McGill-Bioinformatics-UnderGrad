@@ -1,0 +1,86 @@
+
+
+**** output from q1 ****
+group name	Intestinal infectious diseases (001-009)
+001	Cholera
+002	Typhoid and paratyphoid fevers
+003	Other salmonella infections
+004	Shigellosis
+005	Other food poisoning (bacterial)
+006	Amebiasis
+007	Other protozoal intestinal diseases
+008	Intestinal infections due to other organisms
+009	Ill-defined intestinal infections
+group name	Tuberculosis (010-018)
+010	Primary tuberculous infection
+011	Pulmonary tuberculosis
+012	Other respiratory tuberculosis
+013	Tuberculosis of meninges and central nervous system
+014	Tuberculosis of intestines, peritoneum, and mesenteric glands
+015	Tuberculosis of bones and joints
+016	Tuberculosis of genitourinary system
+017	Tuberculosis of other organs
+018	Miliary tuberculosis
+
+
+**** output from q2 ****
+2	{'V30', 'V05', 'V29'}
+3	{'427', '425', '038', '410', '263', '785', '682', '584', '428'}
+4	{'041', '276', 'V09', '799', '042', 'E931', '136', '571', '790'}
+5	{'V30', 'V05', 'V29'}
+6	{'285', '276', '997', '275', 'V15', '403', '444'}
+7	{'V30', 'V05', 'V29'}
+8	{'V30', 'V29', 'V50', '774', 'V05', '770'}
+9	{'276', '507', '401', '584', '428', '431'}
+10	{'V30', '765', '774', 'V29'}
+11	{'191'}
+12	{'997', '427', '574', '568', '998', '157', '401', '553', 'E878'}
+
+
+**** output from q3 ****
+Average patient count 57.27
+
+
+**** output from q4 ****
+34 {'Disorders of the eye and adnexa (360-379)', 'Complications of surgical and medical care, not elsewhere classified (996-999)', 'Disorders of thyroid gland (240-246)', 'Other forms of heart disease (420-429)', 'Ischemic heart disease (410-414)', 'Persons encountering health services for specific procedures and aftercare (V50-V59)', 'Surgical and medical procedures as the cause of abnormal reaction of patient or later complication, without mention of misadventure at the time of procedure (E878-E879)'}
+35 {'Arthropathies and related disorders (710-719)', 'Hypertensive disease (401-405)', 'Complications of surgical and medical care, not elsewhere classified (996-999)', 'Disorders of thyroid gland (240-246)', 'Diseases of the blood and blood-forming organs (280-289)', 'Other forms of heart disease (420-429)', 'Diseases of other endocrine glands (249-259)', 'Chronic rheumatic heart disease (393-398)', 'Ischemic heart disease (410-414)'}
+dict_keys(['71', '85', '111'])
+
+
+**** output from q5 ****
+71 [('2247', 1), ('1438', 0), ('2183', 0), ('4596', 0), ('750', -1)]
+85 [('5166', 0), ('2061', -1), ('5107', -1), ('4577', -2), ('4676', -2)]
+111 [('4453', 9), ('1598', 6), ('3122', 6), ('5077', 6), ('1038', 5)]
+
+
+**** output from q6 ****
+patId	symptoms_status	icd9 group	ICD9 code	ICD9 name	Frequency
+71	observed	285	Other and unspecified anemias	1
+71	observed	276	Disorders of fluid, electrolyte, and acid-base balance	1
+71	observed	E950	Suicide and self-inflicted poisoning by solid or liquid substances	1
+71	observed	266	Deficiency of B-complex components	1
+71	observed	295	Schizophrenic psychoses	1
+71	observed	969	Poisoning by psychotropic agents	1
+71	predicted	296	Affective psychoses	0.6
+71	predicted	965	Poisoning by analgesics, antipyretics, and antirheumatics	0.45
+71	predicted	305	Nondependent abuse of drugs	0.35
+
+
+**** output from q7 ****
+295: 61%
+332: 58%
+491: 76%
+
+
+**** output from bonus ****
+K is sorted by accuracy:
+200: 75%
+300: 74%
+500: 69%
+400: 69%
+100: 69%
+50: 68%
+20: 65%
+10: 58%
+5: 56%
+1: 51%
